@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Teko';
+}
+@font-face {
+	font-family: 'Teko';
+	src: url('fonts/Teko-Light.ttf');
+}
+body{
+	background: #C0C0C0;
+}
+.hr_black{
+	border: 1px solid #000000;
+}
+.width{
+	max-width: 1380px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url('img/second_page/image\ 1.png');
+	height: 1101px;
+	margin: 0 auto;
+}
+
+.header_nav_bar {
+	width: 833px;
+	padding: 34px 0;
+	margin-left: auto ;
+}
+.header_nav_bar ul {
+	display: flex;
+	justify-content: space-between;
+
+}
+.header_nav_bar li{
+	list-style: none;
+	font-family: 'Teko';
+
+}
+.header_nav_bar ul li a{
+	text-decoration: none;
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 23px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.header_title {
+	margin-top: 246px;
+	width: 880px;
+}
+.header_title h2 {
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 128px;
+	line-height: 183px;
+	color: #FFFFFF;
+}
+.header_title p{
+	width: 812px;
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 92px;
+	color: #FFFFFF;
+	
+}
+
+.Tourist {
+}
+.Tourist_heading h2{
+	padding-top: 112px;
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 96px;
+	line-height: 138px;
+	letter-spacing: 0.095em;
+	color: #333333;
+}
+.Tourist_main_block {
+	padding-top: 45px;
+	display: flex;
+
+}
+.Tourist_first_block {
+}
+.Tourist_second_block {
+	padding-left: 97px;
+}
+.Tourist_second_block h3{
+
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 92px;
+	/* identical to box height */
+	
+	letter-spacing: 0.03em;
+	
+	color: #000000;
+	
+}
+.Tourist_second_block h4{
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 46px;
+	letter-spacing: 0.03em;
+	
+	color: #000000;
+	padding-bottom: 71px;
+	
+}
+.Tourist_second_block p{
+
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.03em;
+	
+	color: #000000;
+	
+}
+.route {
+}
+.route_heading  h2{
+	padding-top: 46px;
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 96px;
+	line-height: 138px;
+	letter-spacing: 0.095em;
+	color: #333333;
+}
+.route_photo {
+	padding-top: 110px;
+}
+.footer {
+}
+.footer_main {
+}
+.footer_author {
+}
+.footer_link {
+}
+
+
+
+
+.footer{
+	background: #fff;
+	margin-top: 343px;
+}
+
+.footer_main{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+
+.footer_author h3{
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 52px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+.footer_link {
+
+}
+
+.footer_link ul{
+	display: flex;
+}
+.footer_link li{
+	list-style: none;
+	margin-left: 21px;
+}
+.footer_link a{
+	text-decoration: none;
+}
+.footer_link img{
+	width: 32px;
+	height: 32px;
+}
